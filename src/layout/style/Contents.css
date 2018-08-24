@@ -1,0 +1,17 @@
+.pocp-layout-common-style2{
+    height: 83%;
+}
+.pocp-layout-selfout-style{
+    border:1px rgba(35, 250, 255, 0.4) solid;
+    box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.2) inset, 0px 0px 10px rgba(35, 250, 255, 0.2);
+    background: url("../../resource/image/moduleBG@1x.png") repeat;
+    height:100%;
+    padding:0 2% 1% 2%;
+    margin-top: 1%;
+}
+.pocp-layout-common-style1{
+    height: 100%;
+}
+.pocp-layout-media-secondRow-style{
+    padding-top: 4%;
+}

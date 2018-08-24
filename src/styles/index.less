@@ -1,0 +1,100 @@
+@import "./cockpit/index.less";
+@import "./components/index.less";
+@import "./labors/index.less";
+@import "./layout/index.less";
+@import "./processInfo/index.less";
+@import "./safety/index.less";
+@import './globalUnifiedStyle.less';
+@import "./checkQuality/index.less";
+@import "../components/styles/AntCard.less";
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.6rem;
+    background-color: rgb(2, 20, 53);
+    background-image: url(../resource/image/background.png);
+    background-size: cover;
+    font-family: "Microsoft YaHei","微软雅黑";
+    background-repeat: repeat;
+    color: #FFFFFF;
+}
+.mask{
+    width:100%;
+    background: url("../resource/image/backgroundMask.png");
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100%;
+    overflow: auto;
+}
+#app {
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#app > div {
+    width: 100%;
+}
+
+/*@media (min-width: 576px) {*/
+    /*#app {*/
+        /*max-width: 540px;*/
+        /*}*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+    /*#app {*/
+        /*max-width: 720px;*/
+        /*}*/
+/*}*/
+
+/*@media (min-width: 992px) {*/
+    /*#app {*/
+        /*max-width: 960px;*/
+        /*}*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+    /*#app {*/
+        /*max-width: 1140px;*/
+        /*}*/
+/*}*/
+
+@media (min-width: 1900px) {
+    #app {
+        max-width: 1740px;
+        }
+}
+/*#app{*/
+    /*padding: 0 2%;*/
+/*}*/
+.titlediv {
+    display: inline-block;
+    width: 50%;
+    font-family: "Microsoft YaHei","微软雅黑";
+    font-weight: Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 55px;
+}
+
+/*@import "layout/style/index.css";*/
+/*@import "./pages/cockpit/index.css";*/
+/*@import "./pages/process/index.css";*/
+/*@import "components/styles/AntCard.css";*/
+
+@pocp-font-color:#23faff !important;
+@pocp-border-style:1px solid @pocp-font-color !important;
+@pocp-height-style:100% !important;
+@pocp-text-align:center;
+
+

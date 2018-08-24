@@ -1,0 +1,19 @@
+@import "./MainHeader.css";
+@import "./MainHeaderContainer.css";
+@import "LeftMenus.css";
+@import 'Contents.css';
+.pocp-layout-header-light-style{
+    text-align: center;
+}
+.pocp-layout-common-style{
+    height: 100% !important;
+}
+.pocp-layout-common-style-new{
+    height: 100% !important;
+}
+.pocp-layout-common-style3{
+    height: 13%;
+}
+.pocp-layout-common-style4{
+    margin-top: 6%;
+}

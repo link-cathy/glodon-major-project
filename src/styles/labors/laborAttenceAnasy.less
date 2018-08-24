@@ -1,0 +1,97 @@
+@fontFamily: PingFangSC-Regular, sans-serif;
+@lightBlue: #23FAFF;
+
+#ranks_bar{
+  height:360px;
+  width:80%;
+}
+#typeOfWork_pie{
+  height:360px;
+  width:100%;
+}
+.detailStatic{
+  width:90%;
+  margin:0 auto 0 auto;
+}
+.project-name-content{
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  border-bottom: 1px solid @lightBlue;
+}
+.project-name-content span{
+  font-size: 2.4rem;
+  color: @lightBlue;
+  font-family: @fontFamily
+}
+/*.summaryStatict{
+  height:179px;
+  background: -webkit-radial-gradient(rgba(2,6,18,0.00),rgba(5,10,23,0.51),rgba(5,9,21,0.65),rgba(2,6,18,0.00)); !* Safari 5.1 - 6.0 *!
+  background: -o-radial-gradient(rgba(2,6,18,0.00)  ,rgba(5,10,23,0.51),rgba(2,6,18,0.98) ,rgba(5,9,21,0.65),rgba(2,6,18,0.00)); !* Opera 11.1 - 12.0 *!
+  background: -moz-radial-gradient(rgba(2,6,18,0.00) ,rgba(5,10,23,0.51) ,rgba(2,6,18,0.98) ,rgba(5,9,21,0.65) ,rgba(2,6,18,0.00) ); !* Firefox 3.6 - 15 *!
+  background: radial-gradient(rgba(2,6,18,0.00) ,rgba(5,10,23,0.51) ,rgba(2,6,18,0.98) ,rgba(5,9,21,0.65) ,rgba(2,6,18,0.00) ); !* 标准的语法（必须放在最后） *!
+}*/
+.summaryStatict{
+  height:179px;
+  background: -webkit-linear-gradient(90deg, rgba(2,6,18,0.00) 0%, rgba(5,10,23,0.1) 16%, rgba(2,6,18,0.3) 46%, rgba(5,9,21,0.2) 82%, rgba(2,6,18,0.00) 100%); //!* Safari 5.1 - 6.0 *!
+  background: -webkit-linear-gradient(90deg, rgba(2,6,18,0.00) 0%, rgba(5,10,23,0.1) 16%, rgba(2,6,18,0.3) 46%, rgba(5,9,21,0.2) 82%, rgba(2,6,18,0.00) 100%); //!* Safari 5.1 - 6.0 *!
+  background: -o-linear-gradient(90deg, rgba(2,6,18,0.00) 0%, rgba(5,10,23,0.1) 16%, rgba(2,6,18,0.3) 46%, rgba(5,9,21,0.2) 82%, rgba(2,6,18,0.00) 100%); //!* Opera 11.1 - 12.0 *!
+  background: -moz-linear-gradient(90deg, rgba(2,6,18,0.00) 0%, rgba(5,10,23,0.1) 16%, rgba(2,6,18,0.3) 46%, rgba(5,9,21,0.2) 82%, rgba(2,6,18,0.00) 100%); //!* Firefox 3.6 - 15 *!
+  background: linear-gradient(90deg, rgba(2,6,18,0.00) 0%, rgba(5,10,23,0.1) 16%, rgba(2,6,18,0.3) 46%, rgba(5,9,21,0.2) 82%, rgba(2,6,18,0.00) 100%); //!* 标准的语法（必须放在最后） *!
+}
+.num-people-static{
+  height:100%;
+  position:relative;
+}
+.num-people-static>div{
+  position: absolute;
+  top: 50%;
+  transform:translateY(-50%);
+  -webkit-transform:translateY(-50%);
+}
+.presence-num-content,.realTime-num-content{
+  float: left;
+  margin-right: 40px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: @fontFamily
+}
+.presence-num-content .shwo-value{
+  color: @lightBlue;
+  font-size: 3.6rem;
+  font-family: @fontFamily
+ }
+.realTime-num-content .shwo-value{
+  color: #F8E71C;
+  font-size: 3.6rem;
+  font-family: @fontFamily
+}
+.rankBar-content:after{
+  content: '';
+  height: 300px;
+  width:3px;
+  background:url(./../images/verticalBar.png);
+  position:absolute;
+  top: 25%;
+  right: -2px;
+  background-size: 100% 100%;
+}
+.detailStatic .title-content{
+  height:80px;
+  line-height:80px;
+}
+.detailStatic .title-content .detail-title{
+  color: @lightBlue;
+  font-size: 2.0rem;
+  font-family: @fontFamily
+}
+.detailStatic .title-content .detail-title:before{
+  content:'';
+  display: inline-block;
+  height: 16px;
+  width: 3px;
+  background-color:@lightBlue;
+  box-shadow: 0px 0px 10px @lightBlue;
+  margin: 0 10px 0 40px;
+  font-family: 'PingFang';
+}

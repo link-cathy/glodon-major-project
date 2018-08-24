@@ -1,0 +1,14 @@
+.ModalTabBarRightFont{
+    font-size: 1.4rem;
+
+}
+.ModalTabBarRightFont>div{
+    text-align: right;
+}
+.ModalTabBarTimeFont{
+    color: #fff;
+    opacity: 0.7;
+}
+.ModalTabBarTimeComFont{
+    color: #23faff;
+}

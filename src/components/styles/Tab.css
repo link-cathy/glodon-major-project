@@ -1,0 +1,55 @@
+
+.new-tab-style  :global(.ant-tabs){
+        height: 100%;
+        color: white !important;
+        width: 100%;
+    }
+.new-tab-style  :global(.ant-tabs-tabpane){
+        height: 100%!important;
+    }
+.new-tab-style  :global(.ant-tabs-extra-content){
+        width: 64%;
+    }
+.new-tab-style .ant-tabs.ant-tabs-card  .ant-tabs-bar .ant-tabs-nav-container {
+    height: 68px;
+}
+.new-tab-style .ant-tabs-nav-animated,
+.new-tab-style .ant-tabs-nav-wrap {
+    height: 100%!important;
+}
+.new-tab-style  :global(.ant-tabs-tab){
+        /*opacity: 0.4;*/
+        /*background-color:#23faff !important;*/
+        background: url("images/button_left_normal@1x2.png") no-repeat !important;
+        width: 150px !important;
+        border: none !important;
+        background-position: bottom !important;
+        text-align: center;
+        line-height: 82px !important;
+    }
+.new-tab-style .ant-tabs-tab-active {
+    background: url("images/button_head_selected@1x.png") no-repeat !important;
+    color: #23faff !important;
+    font-weight: 700;
+    background-position: bottom !important;
+}
+.new-tab-style :global(.ant-tabs-nav-scroll){
+        text-align: center;
+        height: 100% !important;
+    }
+.new-tab-style :global(.ant-tabs-content){
+        width: 92% !important;
+        margin: auto;
+        height: 90%;
+    }
+.new-tab-style :global(.ant-tabs-content .ant-tabs-tabpane-active){
+        padding-bottom: 4%;
+    }
+.new-tab-style :global(.ant-table-wrapper){
+        border: 1px solid #23faff !important;
+    }
+.new-tab-style :global(.ant-tabs-bar){
+        margin: 0 0 2% 0;
+    }
+
+

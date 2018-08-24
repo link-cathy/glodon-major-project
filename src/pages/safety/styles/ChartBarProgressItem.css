@@ -1,0 +1,11 @@
+.chart-bar-progress-item {
+    padding-bottom: 20px;
+}
+
+.chart-bar-progress-item >.header .right {
+    float: right;
+}
+.chart-bar-progress-item >div {
+    /*padding: 5px 0;*/
+    color: #ffffff;
+}

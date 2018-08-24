@@ -1,0 +1,9 @@
+{
+  "temperature": 25,
+  "windSpeed": 6.1,
+  "noise": 45,
+  "humidity": 60.1,
+  "pm10": 46,
+  "pm25": 38,
+  "weather": 1
+}

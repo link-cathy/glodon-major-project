@@ -1,0 +1,21 @@
+.chart-title {
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.6rem;
+    background: url(../../../resource/image/title.png) no-repeat;
+    padding-left: 20px;
+    color: #23FAFF;
+}
+
+.safety-number-chart-bar {
+    width: 40%;
+    height: 100%;
+    vertical-align: top;
+    font-size: 12px;
+    padding-top: 15%;
+    padding-right: 10%;
+}
+
+.chart-content {
+    padding: 20px;
+}

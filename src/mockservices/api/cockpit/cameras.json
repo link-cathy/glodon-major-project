@@ -1,0 +1,86 @@
+[
+  {
+    "appPort": 25770,
+    "cameraList": [
+      {
+        "cameraId": 1494294,
+        "cameraName": "1#塔吊",
+        "channel": "3",
+        "type": "ball"
+      },
+      {
+        "cameraId": 1494293,
+        "cameraName": "施工区大门",
+        "channel": "1",
+        "type": "ball"
+      },
+      {
+        "cameraId": 1494335,
+        "cameraName": "2#塔吊",
+        "channel": "2",
+        "type": "ball"
+      }      
+    ],
+    "ip": "2y04w88060.51mypc.cn",
+    "password": "a1234567",
+    "channel": "2",
+    "type": "ball",
+    "port": 25835,
+    "regionId": 1494257,
+    "regionName": "数字中国会展中心",
+    "userName": "admin",
+    "vmType": 1
+  },
+  {
+    "appPort": 8002,
+    "cameraList": [
+      {
+        "cameraId": 1494194,
+        "cameraName": "1#",
+        "channel": "1",
+        "type": "ball"
+      },
+      {
+        "cameraId": 1494193,
+        "cameraName": "2#",
+        "channel": "2",
+        "type": "ball"
+      }  
+    ],
+    "ip": "218.106.157.218",
+    "password": "a1234567",
+    "channel": "1",
+    "type": "ball",
+    "port": 82,
+    "regionId": 1494289,
+    "regionName": "海峡青少年活动中心",
+    "userName": "admin",
+    "vmType": 1
+  },
+  {
+    "appPort": 26044,
+    "cameraList": [
+      {
+        "cameraId": 1494594,
+        "cameraName": "1#",
+        "channel": "1",
+        "type": "ball"
+      },
+      {
+        "cameraId": 1494593,
+        "cameraName": "2#",
+        "channel": "2",
+        "type": "ball"
+      }   
+    ],
+    "ip": "gs20488142.iask.in",
+    "password": "648859626lx",
+    "channel": "1",
+    "type": "ball",
+    "port": 26114,
+    "regionId": 1494258,
+    "regionName": "滨海新城租赁住房一期",
+    "userName": "admin",
+    "vmType": 1
+  }
+]

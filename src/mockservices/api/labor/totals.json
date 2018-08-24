@@ -1,0 +1,91 @@
+{
+	"entryWorkersToday": 238,
+	"onlineWorkers": 258,
+	"projectRegisteredWorkers": 289,
+	"ages": [{
+		"category": "55岁以上",
+		"name": "56-0",
+		"number": 31
+	}, {
+		"category": "46 ~ 55岁",
+		"name": "46-55",
+		"number": 27
+	}, {
+		"category": "36 ~ 45岁",
+		"name": "36-45",
+		"number": 52
+	}, {
+		"category": "26 ~ 35岁",
+		"name": "26-35",
+		"number": 45
+	}, {
+		"category": "25岁以下",
+		"name": "0-25",
+		"number": 134
+	}],
+	"nations": [{
+		"id": "1",
+		"name": "汉",
+		"number": 186
+	}, {
+		"id": "2",
+		"name": "满",
+		"number": 22
+	}, {
+		"id": "3",
+		"name": "侗族",
+		"number": 16
+	}, {
+		"id": "4",
+		"name": "苗族",
+		"number": 8
+	}],
+	"regions": [{
+		"id": "1",
+		"name": "贵州",
+		"number": 89
+	}, {
+		"id": "2",
+		"name": "江西",
+		"number": 73
+	}, {
+		"id": "3",
+		"name": "湖南",
+		"number": 46
+	}, {
+		"id": "4",
+		"name": "四川",
+		"number": 30
+	}],
+	"inAndOutCount": [{
+		"in": 135,
+		"out": 150,
+		"total": 285,
+		"timestamp": 1514736000000
+	}, {
+		"in": 135,
+		"out": 15,
+		"total": 145,
+		"timestamp": 1517414400000
+	}, {
+		"in": 0,
+		"out": 238,
+		"total": 238,
+		"timestamp": 1519833600000
+	}, {
+		"in": 10,
+		"out": 258,
+		"total": 268,
+		"timestamp": 1522512000000
+	}, {
+		"in": 0,
+		"out": 0,
+		"total": 0,
+		"timestamp": 1525104000000
+	}, {
+		"in": 0,
+		"out": 0,
+		"total": 0,
+		"timestamp": 1527782400000
+	}]
+}

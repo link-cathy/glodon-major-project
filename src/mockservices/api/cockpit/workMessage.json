@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "content": "下午例会推迟至15点开始",
+      "time": "2018-5-23",
+      "unread": true
+    },
+    {
+      "content": "周五举办项目安全教育培训",
+      "time": "2018-5-23",
+      "unread": false
+    }
+  ]
+}

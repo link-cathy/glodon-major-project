@@ -1,0 +1,7 @@
+{
+  "projectCost": "126400",            //合同总金额   单位  万元
+  "cumulativeReport": "16088",        //累计报量
+  "paidAmount": "1264",                //已付金额
+  "unpaidAmount": "14824",            //未付金额
+  "paymentRate": "7.9%"               //支付率
+}

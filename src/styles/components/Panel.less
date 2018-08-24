@@ -1,0 +1,45 @@
+//body{
+//    font-family: "Microsoft YaHei","微软雅黑";
+//    background-image: url('images/background.png');
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//    color: white;
+//}
+.gld-panel{
+	width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/*.gld-panel-content:after{
+	content: '';
+    width: 0px;
+    height: 100%;
+    border-right: 2px solid;
+    border-image: -webkit-linear-gradient(top,#0E5B77 0%,#23FAFF 50%,#0E5B77 100%) 2 2;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}*/
+.gld-panel-content{
+    flex: 1;
+    position: relative;
+    word-wrap: break-word;
+    overflow: auto;
+    color: #FFFFFF;
+}
+.gld-panel-header:before{
+	content: '';
+	width: 0px;
+	height: 16px;
+	border-left: 3px solid #23FAFF;
+	display: inline-block;
+	padding-right: 7px;
+}
+.gld-panel-header{
+	height: 26px;
+    line-height: 26px;
+    color: #23FAFF;
+    font-size: 20px;
+}

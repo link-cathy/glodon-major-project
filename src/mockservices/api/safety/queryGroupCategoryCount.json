@@ -1,0 +1,63 @@
+[
+    {
+      "count": 16,
+      "exclusionId": false,
+      "fullName": "施工用电/配电箱与开关箱",
+      "fullNameId": "1480959/1480963",
+      "matterCount": 0,
+      "name": "配电箱与开关箱",
+      "nameId": "1480963",
+      "seriousCount": 0
+    },
+    {
+      "count": 6,
+      "exclusionId": false,
+      "fullName": "文明施工/材料管理",
+      "fullNameId": "1480824/1480828",
+      "matterCount": 0,
+      "name": "材料管理",
+      "nameId": "1480828",
+      "seriousCount": 0
+    },
+    {
+      "count": 5,
+      "exclusionId": false,
+      "fullName": "施工机具/电焊机",
+      "fullNameId": "1481011/1481016",
+      "matterCount": 0,
+      "name": "电焊机",
+      "nameId": "1481016",
+      "seriousCount": 0
+    },
+    {
+      "count": 4,
+      "exclusionId": false,
+      "fullName": "模板支架/支架构造",
+      "fullNameId": "1480936/1480939",
+      "matterCount": 0,
+      "name": "支架构造",
+      "nameId": "1480939",
+      "seriousCount": 0
+    },
+    {
+      "count": 4,
+      "exclusionId": false,
+      "fullName": "高处作业/临边防护",
+      "fullNameId": "1480947/1480951",
+      "matterCount": 0,
+      "name": "临边防护",
+      "nameId": "1480951",
+      "seriousCount": 0
+    },
+    {
+      "count": 27,
+      "exclusionId": true,
+      "fullName": "-其他",
+      "fullNameId": "-1",
+      "matterCount": 0,
+      "name": "其他",
+      "nameId": "-1,1480963,1480828,1481016,1480939,1480951",
+      "seriousCount": 0
+    }
+  ]
+

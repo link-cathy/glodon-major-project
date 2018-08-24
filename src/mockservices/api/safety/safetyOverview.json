@@ -1,0 +1,7 @@
+{
+  "unSolvedCount": 16,                    //未销项隐患
+  "timeoutAndUnchangedCount": 1,         //超期未整改
+  "seriousCount": 0,                       //严重隐患
+  "matterCount": 0,                        //紧要隐患
+  "mapUrl":"/custom/resource/image/four.PNG"
+}

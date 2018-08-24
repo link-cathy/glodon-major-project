@@ -1,0 +1,37 @@
+[{
+    "matterCount": 1,
+    "name": "川匠建筑劳务有限公司",
+    "nameId": "1464752",
+    "seriousCount": 1,
+    "count": 2
+  }, {
+    "matterCount": 3,
+    "name": "振茂劳务分包有限公司",
+    "nameId": "1464755",
+    "seriousCount": 2,
+    "count": 8
+  }, {
+    "matterCount": 2,
+    "name": "江苏中核华兴劳务有限公司",
+    "nameId": "1464753",
+    "seriousCount": 1,
+    "count": 5
+  }, {
+  "matterCount": 1,
+  "name": "川匠建筑劳务有限公司",
+  "nameId": "1464752",
+  "seriousCount": 1,
+  "count": 2
+}, {
+  "matterCount": 3,
+  "name": "振茂劳务分包有限公司",
+  "nameId": "1464755",
+  "seriousCount": 2,
+  "count": 8
+}, {
+  "matterCount": 2,
+  "name": "江苏中核华兴劳务有限公司",
+  "nameId": "1464753",
+  "seriousCount": 1,
+  "count": 5
+}]

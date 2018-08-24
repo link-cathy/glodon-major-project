@@ -1,0 +1,17 @@
+{
+  "projectId": "glodon_10000",
+  "projectName": "国际会议中心",
+  "cityName": "青岛",
+  "departmentName": "新城新区建设总指挥部",
+  "projectTitle": "重大项目监管",
+  "projectCost": 126400,
+  "projectPeriod": 390,
+  "buildingArea": 116192.78,
+  "safetyTarget": "省市建筑工地安全文明标准化示范工地",
+  "greenConstructionTarget": "2星",
+  "qualityTarget": "确保长城杯，争创国家优质工程",
+  "projectProgress": {
+    "residueDays": 332,
+    "progressState": 18
+  }
+}

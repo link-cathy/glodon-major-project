@@ -1,0 +1,36 @@
+{
+  "workersType": [
+    {
+      "laborNumber":38,
+      "jobId": "010",
+      "jobName": "木工"
+    },
+    {
+      "laborNumber": 119,
+      "jobId": "020",
+      "jobName": "钢筋工"
+    },
+    {
+      "laborNumber": 18,
+      "jobId": "040",
+      "jobName": "泥工"
+    },
+    {
+      "laborNumber":52,
+      "jobId": "030",
+      "jobName": "安装工"
+    },
+    {
+      "laborNumber": 9,
+      "jobId": "070",
+      "jobName": "焊工"
+    },
+    {
+      "laborNumber": 2,
+      "jobId": "0701",
+      "jobName": "电工"
+    }
+  ],
+  "entryNumber": 289,
+  "laborTotalNumber": 300
+}

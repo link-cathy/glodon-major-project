@@ -1,0 +1,55 @@
+{
+  "deviceData": [
+    {
+      "deviceId": "",
+      "deviceName": "",
+      "deviceRegion": "",
+      "deviceNo": "",
+      "state": 1,
+      "warning": false
+    },
+    {
+      "deviceId": "",
+      "deviceName": "",
+      "deviceRegion": "",
+      "deviceNo": "",
+      "state": 1,
+      "warning": false
+    },
+    {
+      "deviceId": "",
+      "deviceName": "",
+      "deviceRegion": "",
+      "deviceNo": "",
+      "state": 1,
+      "warning": false
+    },
+    {
+      "deviceId": "",
+      "deviceName": "",
+      "deviceRegion": "",
+      "deviceNo": "",
+      "state": 1,
+      "warning": false
+    },
+    {
+      "deviceId": "",
+      "deviceName": "",
+      "deviceRegion": "",
+      "deviceNo": "",
+      "state": 1,
+      "warning": false
+    },
+    {
+      "deviceId": "",
+      "deviceName": "",
+      "deviceRegion": "",
+      "deviceNo": "",
+      "state": 1,
+      "warning": false
+    }
+  ],
+  "onlineNumber": 6,
+  "offlineNumber": 0,
+  "warningNumber": 0
+}

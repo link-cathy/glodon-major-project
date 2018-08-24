@@ -1,0 +1,28 @@
+{
+  "teamData": [
+    {
+      "name": "张**",            //姓名
+      "mobile": "135****5075",          //手机
+      "post": "项目经理",            //职位
+      "portrait": "../../../resource/image/defaultHead.png"         //头像
+    },
+    {
+      "name": "李**",            //姓名
+      "mobile": "185****3395",          //手机
+      "post": "技术经理",            //职位
+      "portrait": "../../../resource/image/defaultHead.png"         //头像
+    },
+    {
+      "name": "苏**",            //姓名
+      "mobile": "186****3912",          //手机
+      "post": "生产经理",            //职位
+      "portrait": "../../../resource/image/defaultHead.png"         //头像
+    },
+    {
+      "name": "林**",            //姓名
+      "mobile": "136****3900",          //手机
+      "post": "安全总监",            //职位
+      "portrait": "../../../resource/image/defaultHead.png"         //头像
+    }
+  ]
+}

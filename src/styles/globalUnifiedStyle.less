@@ -1,0 +1,324 @@
+/*
+* @Author: linf
+* @Date:   2018/8/3
+* @Explain : 组件的全局统一样式
+*/
+@charset "UTF-8";
+
+@fontFamily: PingFangSC-Regular, sans-serif;
+@lightBlue:  #1EE2FD;
+
+/**
+* 表格 ant-table-tbody
+*/
+.ant-table-thead {
+  background: -webkit-linear-gradient(90deg, @lightBlue 1%, rgba(31,151,253,0.30) 100%); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(90deg, @lightBlue 1%, rgba(31,151,253,0.30) 100%); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(90deg, @lightBlue 1%, rgba(31,151,253,0.30) 100%); /* Firefox 3.6 - 15 */
+  background: linear-gradient(90deg, @lightBlue 1%, rgba(31,151,253,0.30) 100%); /* 标准的语法（必须放在最后） */
+}
+.ant-table-thead tr{
+  height: 60px;
+}
+.ant-table-tbody td{
+  font-size: 1.4rem;
+  font-family: @fontFamily;
+}
+.ant-table-tbody td{
+  font-size: 1.4rem;
+  font-family: @fontFamily;
+}
+.ant-table-tbody td .ant-select-selection{
+  background: transparent;
+  border: 0px;
+  border-radius: 0px;
+}
+.ant-table-tbody td .ant-select-selection .ant-select-selection-selected-value{
+  color:#fff;
+}
+.ant-table-tbody td .ant-select-selection .ant-select-arrow{
+  color:#23FAFF
+}
+.ant-table-tbody td  .ant-input{
+  background: transparent;
+  border: 0px;
+  border-radius: 0;
+  color: #fff;
+}
+.ant-table-tbody td  .ant-input:hover{
+  box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.4) inset, 0px 0px 10px rgba(35, 250, 255, 0.4);
+  border-color:#23faff;
+}
+.ant-table-tbody td  .ant-input:focus{
+  box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.4) inset, 0px 0px 10px rgba(35, 250, 255, 0.4);
+  border-color:#23faff;
+}
+/**
+* 日期 defaul-style-DatePicke
+*/
+.ant-calendar-picker-container .ant-calendar{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+.ant-calendar-picker-container .ant-calendar-date-panel{
+  border: 1px solid #23FAFF;
+  background: #165C73;
+}
+.ant-calendar-picker-container .ant-calendar-year-panel,.ant-calendar-month-panel{
+  background: #165C73;
+}
+.ant-calendar-picker-container .ant-calendar .ant-calendar-input-wrap{
+  height: 32px;
+  padding: 6px 10px;
+  border-bottom: 1px solid #23FAFF;
+  visibility: hidden;
+}
+.ant-calendar-header{
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  user-select: none;
+  border-bottom: 1px solid #23FAFF;
+}
+.ant-calendar-header .ant-calendar-prev-year-btn{
+  lin-height:32px;
+  color: rgba(255, 255, 255, 0.45);
+}
+.ant-calendar-month-panel-header{
+  border-bottom:1px solid #23FAFF;
+}
+.ant-calendar-header .ant-calendar-month-select,.ant-calendar-prev-month-btn,.ant-calendar-prev-year-btn,.ant-calendar-next-month-btn,.ant-calendar-next-year-btn,.ant-calendar-month-select,.ant-calendar-year-select{
+  color: rgba(255, 255, 255, 0.85)!important;
+  line-height: 32px;
+  height:32px;
+}
+.ant-calendar-month-panel-prev-year-btn,.ant-calendar-month-panel-year-select-content,.ant-calendar-month-panel-year-select-arrow,.ant-calendar-month-panel-next-year-btn{
+  color: rgba(255, 255, 255, 0.85)!important;
+  line-height: 32px;
+  height:32px;
+}
+.ant-calendar-year-panel-prev-decade-btn,.ant-calendar-year-panel-decade-select-content,.ant-calendar-year-panel-decade-select-arrow,.ant-calendar-year-panel-next-decade-btn{
+  color: rgba(255, 255, 255, 0.85)!important;
+  line-height: 32px;
+  height:32px;
+}
+.ant-calendar-month-panel-year-select,.ant-calendar-month-select{
+  height:34px;
+}
+.ant-calendar-body{
+  color:#fff;
+  font-size: 1.2rem;
+  padding:2px 4px;
+  font-family: @fontFamily;
+}
+.ant-calendar-date{
+  height:20px;
+  width:20px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.ant-calendar-year-panel-year,.ant-calendar-month-panel-month{
+  color: rgba(255, 255, 255, 0.65);
+}
+.ant-calendar-date:hover,ant-calendar-year-panel-year:hover,.ant-calendar-month-panel-month:hover {
+  background: rgba(2,6,18,0.30);
+  cursor: pointer;
+  color:#23FAFF
+}
+.ant-calendar-year-panel-last-decade-cell .ant-calendar-year-panel-year,.ant-calendar-year-panel-next-decade-cell .ant-calendar-year-panel-year{
+  color: rgba(255, 255, 255, 0.25);
+}
+.ant-calendar-last-month-cell .ant-calendar-date, .ant-calendar-next-month-btn-day .ant-calendar-date{
+  color: rgba(255, 255, 255, 0.25);
+}
+.ant-calendar-year-panel-selected-cell .ant-calendar-year-panel-year,.ant-calendar-today .ant-calendar-date{
+  background:#23FAFF;
+  border:0;
+  color:#fff;
+}
+.ant-calendar-month-panel-selected-cell .ant-calendar-month-panel-month{
+  background:#23FAFF;
+  border:0;
+  color:#fff;
+}
+.ant-calendar-selected-date .ant-calendar-date{
+  border:1px solid #23FAFF;
+  color:#23FAFF;
+}
+.ant-calendar-header a:hover{
+  border:1px solid #23FAFF;
+  color:#23FAFF;
+}
+.ant-calendar-header a:hover{
+  background: rgba(2,6,18,0.30);
+}
+.ant-calendar-footer{
+  border-top: 1px solid #23FAFF;
+  line-height: 32px;
+  padding: 0 12px;
+}
+.ant-calendar-footer span a{
+  color:#23FAFF;
+  font-size:1.4rem;
+  font-family: @fontFamily;
+}
+/**
+* 输入组件
+*/
+.ant-input{
+  background: rgba(2,6,18,0.10);
+  border: 1px solid #23FAFF;
+  color: #23faff;
+  text-align: left;
+  font-size: 1.4rem;
+  font-family: @fontFamily;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0;
+  height:30px;
+  lin-height:30px;
+  //width:160px;
+}
+.ant-input:hover{
+  box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.4) inset, 0px 0px 10px rgba(35, 250, 255, 0.4);
+  border-color:#23faff;
+}
+.ant-input:focus{
+  box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.4) inset, 0px 0px 10px rgba(35, 250, 255, 0.4);
+  border-color:#23faff;
+}
+/*
+分页
+ */
+.defaul-style-pagination{
+  font-size:1.2rem;
+  font-family: @fontFamily;
+  margin-right: 125px !important;
+}
+.defaul-style-pagination .ant-pagination-total-text{
+  color:#fff;
+
+}
+.defaul-style-pagination .ant-pagination-item{
+  width:20px !important;
+  height:24px !important;
+}
+.defaul-style-pagination .ant-pagination-item-active{
+  border-color:#23FAFF !important;
+  background-color:transparent !important;
+  border-radius:0 !important;
+}
+.defaul-style-pagination .ant-pagination-item a{
+  color:#fff;
+}
+.defaul-style-pagination .ant-pagination-item-active a{
+  color:#23FAFF;
+}
+.defaul-style-pagination  .ant-pagination-next{
+  border: 1px solid #23FAFF;
+  width: 54px;
+  height:22px;
+  line-height:22px;
+  border-radius:0;
+}
+.defaul-style-pagination  .ant-pagination-next:hover .ant-pagination-item-link{
+  color:#23FAFF;
+}
+.defaul-style-pagination  .ant-pagination-next:focus .ant-pagination-item-link{
+  color:#23FAFF;
+}
+.defaul-style-pagination  .ant-pagination-next>a{
+  color:#23FAFF;
+}
+.defaul-style-pagination  .ant-pagination-next>a:after{
+  content:'下一页';
+}
+/*button*/
+.defaul-style-button{
+  border: 1px solid #23FAFF;
+  border-radius: 0;
+  font-size: 1.4rem;
+  font-family: @fontFamily;
+  background-color: transparent;
+  color:#23FAFF;
+}
+.defaul-style-button:hover,.defaul-style-button:focus{
+  background-color: transparent;
+  border: 1px solid #23FAFF;
+  color:#23FAFF;
+}
+.common-button-group-style{
+  border-radius: 0!important;
+  border: 1px solid #23FAFF !important;
+  background-color: transparent;
+  color:#23FAFF !important;
+}
+.common-submit-button-style{
+  border: 1px solid #23FAFF;
+  border-radius: 0;
+  font-size: 1.4rem;
+  font-family: @fontFamily;
+  color:#23FAFF !important;
+  background: rgba(35,250,255,0.20);
+}
+.common-submit-button-style:hover,.common-submit-button-style:focus{
+  background: rgba(35,250,255,0.60);
+  border: 1px solid #23FAFF;
+}
+.common-button-style{
+  border-radius: 0;
+  //opacity: 0.4;
+  background: linear-gradient(-90deg, rgba(255,255,255,0) 0%, #49FDFF 97%);
+  border: 1px solid #23FAFF;
+  color:#fff;
+  width: 80%;
+}
+.common-button-style:hover,.common-button-style:focus{
+  background: linear-gradient(-90deg, rgba(255,255,255,0.4) 0%, #49FDFF 97%);
+  color:#fff;
+  border: 1px solid #23FAFF;
+}
+
+/*下拉框*/
+.ant-select-selection--single{
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #23FAFF;
+  color:#23faff;
+  font-size:1.4rem;
+  font-family: @fontFamily;
+  box-shadow: 0px 0px 10px rgba(39,60,81, 0.4) inset, 0px 0px 10px rgba(39,60,81, 0.4);
+}
+.ant-select-selection--single:hover,.ant-select-selection--single:focus{
+  box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.4) inset, 0px 0px 10px rgba(35, 250, 255, 0.4);
+  border-color:#23faff;
+}
+.ant-select-arrow{
+  color:#23faff;
+}
+.ant-select-dropdown {
+  border-radius: 0px;
+  background: #165C73;
+}
+.ant-select-dropdown ul li{
+  color:#fff;
+  font-size:1.4rem;
+  font-family: @fontFamily;
+}
+.ant-select-dropdown-menu-item-active,.ant-select-dropdown-menu-item-selected{
+  border-radius: 0px;
+  background: #165C73;
+}
+.ant-select-dropdown ul li:hover{
+  background:#115064;
+  color:#23faff
+}
+
+//公共高度
+.pocp-common-div-height1{
+  height: 100% !important;
+}
+.pocp-common-div-height2{
+  height: 50% !important;
+}

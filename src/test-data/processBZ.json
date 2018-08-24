@@ -1,0 +1,183 @@
+[
+  {
+    "example_modal_id": "string",
+    "industry_type_id": "string",
+    "parent_type_id": "string",
+    "property_set": [
+      {
+        "id": "0001",
+        "is_base": 0,
+        "name": "项目名称",
+        "properties": [
+          {
+            "alias": "项目名称",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "项目名称",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "string",
+            "type_id": 0,
+            "ui_type": "001001"
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0002",
+        "is_base": 0,
+        "name": "计划名称",
+        "properties": [
+          {
+            "alias": "计划名称",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "计划名称",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "string",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0003",
+        "is_base": 0,
+        "name": "计划类型",
+        "properties": [
+          {
+            "alias": "计划类型",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "计划类型",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "string",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0004",
+        "is_base": 0,
+        "name": "开始时间",
+        "properties": [
+          {
+            "alias": "开始时间",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "开始时间",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "date",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0005",
+        "is_base": 0,
+        "name": "结束时间",
+        "properties": [
+          {
+            "alias": "结束时间",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "结束时间",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "date",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0006",
+        "is_base": 0,
+        "name": "编制时间",
+        "properties": [
+          {
+            "alias": "编制时间",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "编制时间",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "date",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0007",
+        "is_base": 0,
+        "name": "版本号",
+        "properties": [
+          {
+            "alias": "版本号",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "版本号",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "string",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0008",
+        "is_base": 0,
+        "name": "状态",
+        "properties": [
+          {
+            "alias": "是否启用",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "状态",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "int",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      },
+      {
+        "id": "0009",
+        "is_base": 0,
+        "name": "编制",
+        "properties": [
+          {
+            "alias": "编制",
+            "id": "string",
+            "idx": 0,
+            "length": 0,
+            "name": "编制",
+            "target_name": "string",
+            "target_value": "string",
+            "type": "int",
+            "type_id": 0
+          }
+        ],
+        "property_set_type_id": 0
+      }
+    ],
+    "type_id": "string",
+    "type_name": "string"
+  }
+]

@@ -1,0 +1,130 @@
+@import "../../components/styles/Modal.css";
+@import '../../components/styles/Table.css';
+@import "../../components/styles/Tab.css";
+@import "../../components/styles/ModalHeader.css";
+@import "../../components/styles/ModalTabBarRight.css";
+@import "../../components/styles/DateTime.css";
+/* process right status ProjectRightInfo.js css*/
+.pocp-process-status-style{
+    height:100% !important;
+}
+.pocp-process-status-info-style{
+    margin-top: 8% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center!important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+}
+.pocp-process-status-info-style1{
+    justify-content: space-around !important;
+}
+.pocp-process-statusInfo-div-style{
+    display: inline-block !important;
+    width:70% !important;
+    color: #23faff !important;
+    text-align: left !important;
+    /*border-bottom: 1px rgba(35,250,255,.8) solid;*/
+    /*box-shadow: 0 2px 1px -1px rgba(35,250,255,.4)*/
+}
+.pocp-process-corner-style{
+    height: 16px !important;
+    width: 3px !important;
+    /*transform: rotate(-30deg);*/
+    /*border-right: 1px rgba(35,250,255,.8) solid;*/
+    /*box-shadow: -3px 0 2px -2px rgba(35,250,255,.4) inset;*/
+    margin-right: -16px;
+    background: #23FAFF;
+    box-shadow: 0 0 6px 0 #23FAFF;
+}
+.pocp-process-result-success-style{
+    color: #23faff;
+    font-size:3.6rem;
+    font-weight:700;
+}
+.pocp-process-result-divide-style{
+    width:2px;
+    height: 50px;
+    border:1px solid #23faff
+}
+.pocp-process-result-warn-style{
+    color: #F71F1F;
+    font-size:3.6rem;
+    font-weight:700;
+}
+
+.pocp-process-status-title-style{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.pocp-process-result-show-style{
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+.pocp-process-project-result-style{
+    border-top:2px solid #23faff;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    opacity: 0.9;
+    background-image: linear-gradient(90deg, rgba(0,255,228,0.62) 0%, rgba(0,255,228,0.20) 100%);
+}
+
+/*common css*/
+
+
+/*process MediaInfo.js*/
+.pocp-process-media-firstRow-style{
+    height:24%
+}
+.pocp-process-media-firstRow-style1{
+    height:76%;
+}
+.pocp-process-media-firstRowCol-style{
+    border:1px solid #23faff;
+    height:100%;
+}
+.pocp-process-media-unselect-Col-style{
+    height:100%;
+}
+.pocp-process-media-RowCol-style{
+    margin-left: 4%;
+}
+/*ModalInfo.js*/
+
+.pocp-process-media-unselect-Col-style .icon-corner {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+}
+.icon-corner-nw-new {
+    left: 0;
+    top: 0;
+    border-left: 1px solid #23FAFF;
+    border-top: 1px solid #23FAFF;
+}
+
+.icon-corner-ne-new  {
+    right: 0;
+    top: 0;
+    border-right: 1px solid #23FAFF;
+    border-top: 1px solid #23FAFF;
+}
+
+.icon-corner-sw-new  {
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #23FAFF;
+    border-left: 1px solid #23FAFF;
+}
+
+.icon-corner-se-new  {
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #23FAFF;
+    /* rgba(35,250,255,0.7);*/
+    border-right: 1px solid #23FAFF;
+}
+

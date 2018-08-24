@@ -1,0 +1,78 @@
+.pocp-layout-nav-style{
+    background:url('images/button_left_normal@1x.png') no-repeat ;
+    background-size:100% 100%;
+    /*border:1px rgba(35, 250, 255, 0.4) solid;*/
+    /*box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.2) inset, 0px 0px 10px rgba(35, 250, 255, 0.2);*/
+    /*width: 80%;*/
+    margin-top: 12%;
+    height:60%;
+    line-height:3;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.pocp-layout-common-style{
+    height: 100%;
+}
+.content-corner-style {
+    position: absolute;
+    top: -32px;
+    right: -24px;
+}
+.content-right-style {
+    position: absolute;
+    right: -24px;
+    top: 0px;
+    bottom: 0px;
+    transform: translateX(0%) translateY(35%);
+}
+.left-nav-tab-style>div[class ="ant-tabs-bar"]{
+    border-right: none !important;
+}
+.left-nav-tab-style>div[class="ant-tabs-content ant-tabs-content-no-animated"]{
+    border:1px rgba(35, 250, 255, 0.4) solid !important;
+    box-shadow: 0px 0px 10px rgba(35, 250, 255, 0.2) inset, 0px 0px 10px rgba(35, 250, 255, 0.2);
+    background: url("../../resource/image/moduleBG@1x.png") repeat;
+    height:90%;
+    padding:24px;
+    /*margin-top: 0.3% !important;*/
+    width: 85% !important;
+    margin-left: 0 !important;
+}
+.left-nav-tab-style>div[class ="ant-tabs-bar"] :global(.ant-tabs-tab){
+    background: url("images/button_left_normal@1x.png") no-repeat !important;
+    border:none !important;
+    background-size: 88% 100% !important;
+    background-position: right !important;
+    color: white;
+    height: 50px;
+    padding: 0 !important;
+    line-height: 50px !important;
+    margin-right: 1px !important;
+    margin-bottom: 12% !important;
+    text-align: center !important;
+}
+.left-nav-tab-style>div[class ="ant-tabs-bar"] :global(.ant-tabs.ant-tabs-card .ant-tabs-bar .ant-tabs-tab) {
+    border-radius: 0 !important;
+}
+.left-nav-tab-style>div[class ="ant-tabs-bar"] :global(.ant-tabs.ant-tabs-card .ant-tabs-bar .ant-tabs-tab:hover) {
+    color: white;
+}
+.left-nav-tab-style>div[class="ant-tabs-content"]>div[class="ant-tabs-tabpane-active"]{
+    padding-bottom: 0;
+}
+.left-nav-tab-style>div[class ="ant-tabs-bar"] :global(.ant-tabs-tab-active){
+    background: url("images/button_left_selected@1x.png") no-repeat !important;
+    background-size: 100% 100% !important;
+    color: #23faff !important;
+    background-position: top !important;
+    font-weight: 700;
+    height: 57px;
+}
+.left-nav-tab-style>div[class ="ant-tabs-bar"]{
+    width: 10%;
+}
+.left-nav-tab-style[clss="ant-tabs"]{
+    height: 100% !important;
+}
+
